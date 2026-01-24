@@ -1,1 +1,1 @@
-mcajournal24.netlify.app
+https://mcajournal24.netlify.app/
