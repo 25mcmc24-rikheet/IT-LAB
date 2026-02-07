@@ -1,7 +1,7 @@
 const cityInput = document.getElementById("cityInput");
 const getWeatherBtn = document.getElementById("getWeatherBtn");
 const resultDiv = document.getElementById("result");
-const API_KEY = "YOUR_API_KEY_HERE";
+const API_KEY = "e88a8b49ea1acf43fa3361e94b9c4979";
 getWeatherBtn.addEventListener("click", () => {
     const city = cityInput.value.trim();
     if (!city) {
@@ -35,5 +35,6 @@ function displayWeather(data) {
         <p>Temperature: ${temp} °C</p>
         <p>Humidity: ${humidity} %</p>
         <p>Condition: ${description}</p>
+
     `;
 }
