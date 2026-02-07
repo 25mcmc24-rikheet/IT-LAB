@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="task6.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h2>Task Manager</h2>
+
+    <div class="controls">
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <input type="date" id="dateInput">
+        <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="filters">
+        <button onclick="setFilter('all')">All</button>
+        <button onclick="setFilter('open')">Pending</button>
+        <button onclick="setFilter('done')">Completed</button>
+    </div>
+
+    <ul id="taskList"></ul>
+</div>
+
+<script src="task6.js"></script>
+</body>
+</html>
